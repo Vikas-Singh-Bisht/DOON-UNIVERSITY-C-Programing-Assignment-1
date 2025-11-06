@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<ctype.h>
+int main(){
+char ch;
+printf("enter a character");
+scanf("%c",&ch);
+if (isalpha(ch))
+printf("Character is alphabet");
+else printf("not an alphabet");
+return 0;
+}
