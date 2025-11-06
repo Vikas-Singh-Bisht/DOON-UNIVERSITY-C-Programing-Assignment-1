@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<ctype.h>
+int main(){
+    char ch;
+    printf("enter a character :");
+   
+    scanf("%c",&ch);
+    ch=tolower(ch);
+    if (ch == 'a'||ch == 'e'||ch=='i'||ch=='o'||ch=='u'||ch=='s')
+    printf("The given input is an vowel");
+    else if (!isalpha(ch)) 
+
+    printf("ivalid input");
+    else printf("not a vowel");
+    return 0;
+
+}
