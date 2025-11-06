@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main(){
+int a=4,b=6;
+if (a<=b)
+    printf("Num b is the largest");
+else printf("Num a is the largest");
+return 0;
+}*/
