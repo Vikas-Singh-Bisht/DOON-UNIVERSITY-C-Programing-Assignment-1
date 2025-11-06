@@ -1,1 +1,11 @@
-
+#include<stdio.h>
+int main(){
+int a=4;
+if (a>0)
+printf("Num is positve");
+else if (a==0)
+printf("Num is zero");
+else
+printf("Num is Negative");
+return 0;
+}*/
